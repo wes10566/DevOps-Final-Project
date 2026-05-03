@@ -2,6 +2,7 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-COPY PLZWORK.py .
+COPY PLSWORK.py .
+COPY bgm022.ogg .
 
-CMD ["python", "PLZWORK.py"]
+CMD ["python", "PLSWORK.py"]
